@@ -1,7 +1,4 @@
 <?php 
-/**
-* 
-*/
 class Komplain extends CI_Controller
 {
 	
@@ -71,10 +68,7 @@ class Komplain extends CI_Controller
         }
     }
 
-
-
-
-function delete($id)
+	function delete($id)
 	{
 		$this->Komplain_model->hapus_data($id);
 		$this->session->set_flashdata("pesan", "<div class=\"col-md-12\"><div class=\"alert alert-danger\" id=\"alert\">Data berhasil dihapus!!</div></div>");

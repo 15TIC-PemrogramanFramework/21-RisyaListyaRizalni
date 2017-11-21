@@ -1,7 +1,4 @@
 <?php 
-/**
-* 
-*/
 class Member extends CI_Controller
 {
 	
@@ -47,22 +44,6 @@ class Member extends CI_Controller
 		$this->session->set_flashdata("pesan", "<div class=\"col-md-12\"><div class=\"alert alert-success\" id=\"alert\">Pendaftaran berhasil!!</div></div>");
 		redirect('LoginMember');
 	}
-	
-
-	function login()
-	{
-		$this->load->view('User/Login');
-	}
-
-
-	function home()
-	{
-		$this->load->view('User/Home');
-	}
-
-
-	
-
 
 /* ADMIN - KELOLA DATA MEMBER*/
 

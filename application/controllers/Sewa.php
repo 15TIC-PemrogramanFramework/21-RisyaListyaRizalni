@@ -1,7 +1,4 @@
 <?php 
-/**
-* 
-*/
 class Sewa extends CI_Controller
 {
 	
@@ -12,7 +9,6 @@ class Sewa extends CI_Controller
 		$this->load->model('Member_model');
 		$this->load->model('Hunian_model');
 	}
-
 
 	/* MEMBER-KONFIRMASI PEMBAYARAN*/
  

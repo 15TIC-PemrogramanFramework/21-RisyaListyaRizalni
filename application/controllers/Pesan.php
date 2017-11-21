@@ -1,7 +1,4 @@
 <?php 
-/**
-* 
-*/
 class Pesan extends CI_Controller
 {
 	
@@ -12,8 +9,6 @@ class Pesan extends CI_Controller
 		$this->load->model('Member_model');
 		$this->load->model('Hunian_model');
 	}
-
-
 
 	/* MEMBER-PEMESANAN*/
  

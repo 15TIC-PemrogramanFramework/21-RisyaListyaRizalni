@@ -1,7 +1,4 @@
 <?php 
-/**
-* 
-*/
 class Hunian extends CI_Controller
 {
 	var $limit=10;
@@ -18,7 +15,7 @@ class Hunian extends CI_Controller
 	{
 		//print_r($this->prodi_model->ambil_data());
 		$data['hunian'] = $this->Hunian_model->ambil_data();
-		$this->load->view('Admin/hunian_list',$data);
+		$this->load->view('Admin/Hunian_list',$data);
 	}
 
 	function tambah()
