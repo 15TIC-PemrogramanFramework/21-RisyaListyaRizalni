@@ -42,8 +42,6 @@
 							<td></td>
 						</tr>
 					</table>
-
-
 				</form>
 			</center>
 		</div>

@@ -1,4 +1,4 @@
-<?php $this->load->view('templates/admin/header');?>
+<?php $this->load->view('templates/Admin/Header');?>
  <div id="page-wrapper" >
     <div id="page-inner">
       <div class="row">
@@ -22,4 +22,4 @@
 <!-- /. PAGE INNER  -->
 </div>
 <!-- /. PAGE WRAPPER  -->     
-<?php $this->load->view('templates/admin/footer'); ?>
+<?php $this->load->view('templates/Admin/Footer'); ?>

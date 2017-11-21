@@ -54,4 +54,4 @@
 <!-- /. PAGE INNER  -->
 </div>
 <!-- /. PAGE WRAPPER  -->     
-<?php $this->load->view('templates/admin/footer'); ?>
+<?php $this->load->view('templates/Admin/Footer'); ?>

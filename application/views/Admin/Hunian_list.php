@@ -61,5 +61,5 @@
 </div>
 <!-- /. PAGE INNER  -->
 
-<?php $this->load->view('templates/admin/footer'); ?>
+<?php $this->load->view('templates/Admin/Footer'); ?>
 	

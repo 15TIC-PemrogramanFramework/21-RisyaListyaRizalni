@@ -46,10 +46,6 @@
 			</table>
 		</div>
 	</div>
-
-	<!-- /. ROW  --> 
 </div>
-<!-- /. PAGE INNER  -->
-</div>
-<!-- /. PAGE WRAPPER  -->     
-<?php $this->load->view('templates/admin/footer'); ?>
+</div>    
+<?php $this->load->view('templates/Admin/Footer'); ?>

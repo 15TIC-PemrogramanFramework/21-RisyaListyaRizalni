@@ -39,19 +39,12 @@
     </span>
 </div>
 </div>
-<!-- /. NAV TOP  -->
-
-
 <nav class="navbar-default navbar-side" role="navigation">
     <div class="sidebar-collapse">
       <ul class="nav" id="main-menu">
        <?php echo generate_sidemenu();?>
       </ul>
     </div>
-
   </nav>
-<!-- /. NAV SIDE  -->
-
 </div>
-
 </body>

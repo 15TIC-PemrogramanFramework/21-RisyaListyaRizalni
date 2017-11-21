@@ -29,10 +29,8 @@
 			</div>
 		</div>
 	</div>
-	
+	<br>
+	<br>
+	<br>
 
-<br>
-					<br>
-					<br>
-
-			<?php $this->load->view('templates/User/Footer'); ?>
+	<?php $this->load->view('templates/User/Footer'); ?>
